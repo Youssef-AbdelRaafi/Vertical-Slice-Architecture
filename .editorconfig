@@ -422,5 +422,8 @@ dotnet_diagnostic.SA1615.severity = none
 # SA1649: File name should match first type name
 dotnet_diagnostic.SA1649.severity = none
 
+# CA1873: Evaluation of this argument may be expensive and unnecessary if logging is disabled
+dotnet_diagnostic.CA1873.severity = none
+
 [**/Migrations/*]
 generated_code = true
